@@ -79,10 +79,10 @@ enum Mes: Int {
 
 //utilizando o "nome" do enumerador
 let mes = Mes.Mar
+print(mes.rawValue)
 
 //utilizando o valor numérico correspondente ao mês, utilizando o <i>rawValue</i>
 let outroMes = Mes(rawValue: 6) // Jun
-
 
 print(mes.nomeMes())
 print(outroMes!.nomeMes())
